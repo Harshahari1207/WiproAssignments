@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddEmp</servlet-name>
+  	<display-name>AddEmp</display-name>
+  	<description></description>
+  	<servlet-class>com.wipro.AddEmp</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Addemp</servlet-name>
+  	<display-name>Addemp</display-name>
+  	<description></description>
+  	<servlet-class>Addemp</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AllEmployees</servlet-name>
+  	<display-name>AllEmployees</display-name>
+  	<description></description>
+  	<servlet-class>AllEmployees</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteEmp</servlet-name>
+  	<display-name>DeleteEmp</display-name>
+  	<description></description>
+  	<servlet-class>DeleteEmp</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteEmp2</servlet-name>
+  	<display-name>DeleteEmp2</display-name>
+  	<description></description>
+  	<servlet-class>DeleteEmp2</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Modify</servlet-name>
+  	<display-name>Modify</display-name>
+  	<description></description>
+  	<servlet-class>Modify</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SelectEmployee</servlet-name>
+  	<display-name>SelectEmployee</display-name>
+  	<description></description>
+  	<servlet-class>SelectEmployee</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Update</servlet-name>
+  	<display-name>Update</display-name>
+  	<description></description>
+  	<servlet-class>Update</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddEmp</servlet-name>
+  	<url-pattern>/AddEmp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Addemp</servlet-name>
+  	<url-pattern>/Addemp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AllEmployees</servlet-name>
+  	<url-pattern>/AllEmployees</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteEmp</servlet-name>
+  	<url-pattern>/DeleteEmp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteEmp2</servlet-name>
+  	<url-pattern>/DeleteEmp2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Modify</servlet-name>
+  	<url-pattern>/Modify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SelectEmployee</servlet-name>
+  	<url-pattern>/SelectEmployee</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Update</servlet-name>
+  	<url-pattern>/Update</url-pattern>
+  </servlet-mapping>
+</web-app>
