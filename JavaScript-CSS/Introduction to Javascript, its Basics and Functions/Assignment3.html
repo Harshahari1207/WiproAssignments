@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Assignment3</title>
+    </head>
+    <body onload="checkPalindrome()">
+        <script language = "Javascript">
+            function checkPalindrome(){
+                let str = prompt("Enter String: ")
+                if(str == str.split("").reverse().join("")){
+                    document.write(str + " is palindrome.")
+                }
+                else{
+                    document.write(str + " is not palindrome.")
+                }
+            }
+        </script>
+        
+    </body>
+</html>

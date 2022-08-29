@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Assignment4</title>
+    </head>
+    <body>
+        <script language = "Javascript">
+            function firstLetterUpper(str){
+                let title = str.split(" ");
+                title.forEach((part, index)=>{
+                    part = part.charAt(0).toUpperCase()+part.substring(1,part.length);
+                    title[index] = part;
+                });
+                title = title.join(" ");
+                return title;
+            }
+            let str = prompt("Enter a string: ");
+            document.write("Enter String : " +str+ "<br>");
+            document.write("upload String : " +firstLetterUpper(str));
+        </script>
+    </body>
+</html>
