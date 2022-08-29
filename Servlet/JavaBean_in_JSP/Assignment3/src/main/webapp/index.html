@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee details</title>
+</head>
+<style>
+	body{
+	text-align: center;
+	}
+	input{
+	background: white;
+	color: black;
+	}
+</style>
+<body>
+	<h2>Enter Employee Details</h2>
+	<form action="send.jsp" method="get">
+	<label>Enter ID: <input type="number" name="id" min="1" max="999" required></label><br>
+	<label>Enter Name: <input type="text" name="empName" required></label><br>
+	<label>Enter Enter Designation: <input type="text" name="desg" required></label><br>
+	<input type="submit">
+	</form>
+</body>
+</html>
