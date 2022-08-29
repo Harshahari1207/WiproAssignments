@@ -1,0 +1,72 @@
+<!-- Write a HTML program to create visitor information capture. The page should have the heading "Visitors" information and should ask the following information from user -->
+<html>
+    <head><title>Assignment2</title></head>
+    
+    <body>
+        <style>
+            table{
+                margin: 10% 40%;
+                width: 20%;
+                border-spacing: 0px;
+                align: center;
+                display: inline-block;
+            }
+            th{
+                border-bottom: solid 2px black;
+            }
+            td{
+                border: solid 2px black;
+                border-top: 100px;
+                border-bottom: 50px;
+                padding: 25px 10px;
+            }
+            td#t01{
+                
+                border-bottom: solid 2px black;
+                padding: 7px 20px;
+            }
+            input[type=text]{
+                width: 100%;
+            }
+            input[type=submit]{
+                width: 100%;
+            }
+            input[type=reset]{
+                width: 100%;
+            }
+            select{
+                width: 100%;
+            }
+        </style>
+        <table>
+            <tr><th>Visitors information</th></tr>
+            <tr>
+                <td>
+                    <form>
+                        Email Address :<input type="text" name="email">
+                        <br><br>
+                        User's Interest :
+                        <input type="radio" name="User's Interest" value="research">research
+                        <input type="radio" name="User's Interset" value="purchase">purchase
+                        <br><br>
+                        Occupation :
+                        <select name="occupation">
+                            <option value="">Select One</option>
+                        </select>
+                        <br><br>
+                        Want us to send you junk mail : <br>
+                        <input type="radio" name="junk mail" values="yes">Absolutely
+                        <input type="radio" name="junk mail" values="no">No way man
+                        <br><br>
+                        <tr>
+                            <td id="t01">
+                                <input type="submit" value="Submit Form" align="center">
+                                <input type="reset" value="Reset Form" align="center">
+                            </td>
+                        </tr>  
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
